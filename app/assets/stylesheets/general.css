@@ -13,6 +13,10 @@ footer {
   border-top: 1px solid lightgrey;
 }
 
+footer * {
+  display: inline-block;
+}
+
 #startbtn {
   border: solid 1px black;
   width: 4em;
