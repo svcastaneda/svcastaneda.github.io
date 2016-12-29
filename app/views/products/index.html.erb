@@ -1,8 +1,9 @@
 <footer>
-  <div id="startbtn">
+  <button class="left inline footerbox">
+    <%= image_tag("taco.png", size: "13", class: "inline") %>
     Estar
-  </div>
-  <div>
+  </button>
+  <div class="right inline footerbox mr-03">
     <%= Time.now.strftime("%I:%M %p") %>
   </div>
 </footer>

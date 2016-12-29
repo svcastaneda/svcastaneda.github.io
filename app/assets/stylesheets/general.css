@@ -7,17 +7,27 @@ body {
 footer {
   height: 1.5em;
   width: 100%;
+  padding: 2px;
   position: fixed;
   bottom: 0;
   background-color: #A8ADA8;
   border-top: 1px solid lightgrey;
 }
 
-footer * {
-  display: inline-block;
+.footerbox {
+  border: solid 1px rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	box-shadow: inset 0 1px 3px rgba(255, 255, 255, 0.3), 0 1px 3px rgba(0, 0, 0, 0.15);
+  background-color: #B3B3B3;
+	font-size: 1em;
+  height: 1.3em;
+	text-align: center;
 }
 
-#startbtn {
-  border: solid 1px black;
-  width: 4em;
-}
+.mr-03 { margin-right: 0.3em; }
+
+.left { float: left; }
+
+.right { float: right; }
+
+.inline { display: inline-block; }
