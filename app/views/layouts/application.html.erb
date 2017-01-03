@@ -8,7 +8,26 @@
 </head>
 <body>
 
-<%= yield %>
+  <div class="left inline links">
+    <%= image_tag("twitter.png", size: "48", class: "block") %>
+    <%= image_tag("ig.png", size: "48", class: "block") %>
+    <%= image_tag("mixtape.png", size: "48", class: "block") %>
+  </div>
+
+  <%= yield %>
+
+  <footer>
+    <button class="left inline footerbox btn" id="start">
+      <%= image_tag("taco.png", size: "13", class: "inline") %>
+      Estar
+    </button>
+    <div class="inline left line"></div>
+
+    <div class="right inline footerbox mr-03 inset">
+      <%= Time.now.strftime("%I:%M %p") %>
+    </div>
+    <div class="inline right line"></div>
+  </footer>
 
 </body>
 </html>
