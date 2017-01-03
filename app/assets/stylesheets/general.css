@@ -22,6 +22,8 @@ footer {
   padding: 1px 5px;
 }
 
+.m-1 {  margin: 1em; }
+
 .mr-03 { margin-right: 0.3em; }
 
 .left { float: left; }
@@ -30,7 +32,7 @@ footer {
 
 .inline { display: inline-block; }
 
-.block { display: block;}
+.block { display: block; }
 
 .btn {
   height: 1.5em;
