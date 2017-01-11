@@ -9,17 +9,39 @@
 <body>
 
   <div class="left inline links m-1">
-    <%= image_tag("twitter.png", size: "48", class: "block") %>
-    <%= image_tag("ig.png", size: "48", class: "block") %>
-    <%= image_tag("mixtape.png", size: "48", class: "block") %>
+    <a href="#" class="link mb-1">
+      <%= image_tag("twitter.png", size: "48", class: "center block") %>
+      <p class="m-0 mt-05">Twitter</p>
+    </a>
+    <a href="#" class="link mb-1">
+      <%= image_tag("ig.png", size: "48", class: "center block") %>
+      <p class="m-0 mt-05">Insta</p>
+    </a>
+    <a href="#" class="link mb-1">
+      <%= image_tag("mixtape.png", size: "48", class: "center block") %>
+      <p class="m-0 mt-05">Mixtape</p>
+    </a>
   </div>
 
   <%= yield %>
-
+	
+	<menu class="btn start inline" id="startMenu">
+		<div class="menu-item">Programs</div>
+		<div class="menu-item">Documents</div>
+		<div class="menu-item">Settings</div>
+		<div class="menu-item">Find</div>
+		<div class="menu-item">Help</div>
+		<div class="menu-item">Run...</div>
+		<hr>
+		<div class="menu-item">Shut Down...</div>
+	</menu>
+	
   <footer>
-    <button class="left inline footerbox btn" id="start">
+		
+		
+    <button class="left inline start footerbox btn" id="startBtn">
       <%= image_tag("taco.png", size: "13", class: "inline") %>
-      Estar
+      Start
     </button>
     <div class="inline left line"></div>
 
