@@ -17,24 +17,23 @@ $(document).ready(function () {
 	});
 	
 	var rand = function(keys) {
-		// if(this.match('(hi|hello|hey|hola|howdy)(\\s|!|\\.|$)'))
 	  var key = responses[keys[Math.floor(keys.length * Math.random())]];
 		return key[Math.floor(Math.random()*key.length)];
 	}
 	
 	var getResponse = function(user) {
 		user = user.toLowerCase();
-		if (user.match(/(hi|hello|hey|hola|howdy|sup)(\\s|!|\\.|$)/)) {
+	if (user.match(/(hi|hello|hey|hola|howdy|sup|waddup).*/)) {
 			return rand(["creepy", "greetings"]);
 		} else if (user.match(/.*khaledism|((dj )?(khaled)+).*/)) {
 			return rand(["khaledisms"]);
-		} else if (user.match(/help(\\s|!|\?|\\.|$)/)) {
+		} else if (user.match(/help(\\s|!|\?|\\.|$)*/)) {
 			return help;
-		} else if (user.match(/what((\'s)|( is)) the meaning of life(\\s|\?|\.|$)/)) {
+		} else if (user.match(/what((\'s)|( is)) the meaning of life(\\s|\?|\.|$)*/)) {
 			return "42";
 		} else if (user.match(/\w*\?/)) {
 			return rand(["insults"]);
-		} else if (user.match(/.*(entire )?bee movie script(\\s|!|\\.|$)/)) {
+		} else if (user.match(/.*(entire )?bee movie script(\\s|!|\\.|$)*/)) {
 			return beemoviescript;
 		} else {
 			return rand(Object.keys(responses));
