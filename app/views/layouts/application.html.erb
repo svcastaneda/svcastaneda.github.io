@@ -31,6 +31,10 @@
       <%= image_tag("bookmark.png", size: "48", class: "center block") %>
       <p class="m-0 mt-05">Bookmarks</p>
 		</div>
+    <div class="icon mb-1" name="resume">
+      <%= image_tag("mini-me.png", size: "48", class: "center block") %>
+      <p class="m-0 mt-05">Resume</p>
+		</div>
   </div>
 	
 	<%= render partial: "layouts/shitbot" %>
@@ -38,6 +42,7 @@
 	<%= render partial: "layouts/mixtape" %>
 	<%= render partial: "layouts/bookmarks" %>
 	<%= render partial: "layouts/help" %>
+	<%= render partial: "resume/resume" %>
 
   <%= yield %>
 	
