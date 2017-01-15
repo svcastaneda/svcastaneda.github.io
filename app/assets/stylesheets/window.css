@@ -1,7 +1,9 @@
 .window {
 	background-color: #C1C2BD;
-	display: inline-block;
+	box-shadow: black 3px 3px 5px;
+	display: block;
 	z-index: 2;
+	position: fixed !important;
   border-top: 2px solid rgba(235, 235, 235, 0.7);
   border-left: 2px solid rgba(235, 235, 235, 0.7);
   border-bottom: 2px solid rgba(169, 169, 169, 0.7);
@@ -12,6 +14,7 @@
 	background-color: #007;
 	font-size: 12px;
 	height: 1.75em;
+	padding: 0 3px;
 }
 
 .title-bar {
@@ -19,10 +22,7 @@
 	line-height: 1.75em;
 }
 
-.windowCtrls {
-	height: 100%;
-	margin-right: 3px;
-}
+.windowCtrls { height: 100%; }
 
 .white { color: white; }
 
@@ -36,6 +36,24 @@
 .glyph-max { background-image: url("icons/max"); }
 .glyph-close { background-image: url("icons/close"); }
 
-.minimized {
-	
+.minimized {  }
+
+.stdSize {
+	height: 20em;
+	background-color: white;
+	overflow-y: scroll;
+  box-sizing: border-box;
 }
+
+#insta .stdSize { height: 395px; }
+
+#help {
+	display: none;
+	visibility: hidden;
+	position: fixed !important;
+	left: 400px;
+	top: 125px;
+}
+
+#insta { left: 350px; top: 250px; }
+#mixtape { left: 700px; top: 125px; }
