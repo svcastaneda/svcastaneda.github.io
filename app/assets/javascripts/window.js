@@ -27,12 +27,12 @@ $(document).ready(function () {
 	
 	$(".icon").on("click", function(e) {
 		var n = $(this).attr("name");
-		zIndex = 3;
-		$(".window").css({"z-index": "2"});
-		$("#" + n).css({"visibility": "initial", "z-index": zIndex});
+		$("#" + n).css({"display": "inline-block", "visibility": "initial", "z-index": zIndex});
+		zIndex++;
 	});
 	
 	$("#helpLauncher").on("click", function(e) {
 		$("#help").css({"display": "inline-block", "visibility": "initial", "z-index": zIndex});
+		zIndex++;
 	});
 });
