@@ -71,7 +71,7 @@ footer {
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-.link {
+.icon {
   color: black;
   text-decoration: none;
   text-align: center;
@@ -105,4 +105,10 @@ footer {
 
 hr {
 	margin: 0;
+}
+
+#guy {
+	position: fixed;
+  bottom: 1.5em;
+  right: 0;
 }
