@@ -11,39 +11,45 @@
 <body>
 
   <div class="left inline links m-1">
-    <a href="#" class="link mb-1">
-      <%= image_tag("twitter.png", size: "48", class: "center block") %>
+    <!-- <div class="icon mb-1">
+      <%#= image_tag("twitter.png", size: "48", class: "center block") %>
       <p class="m-0 mt-05">Twitter</p>
-    </a>
-    <a href="#" class="link mb-1">
+		</div> -->
+    <div class="icon mb-1" name="insta">
       <%= image_tag("ig.png", size: "48", class: "center block") %>
       <p class="m-0 mt-05">Insta</p>
-    </a>
-    <a href="#" class="link mb-1">
+		</div>
+    <div class="icon mb-1" name="mixtape">
       <%= image_tag("mixtape.png", size: "48", class: "center block") %>
       <p class="m-0 mt-05">Mixtape</p>
-    </a>
+		</div>
+    <div class="icon mb-1" name="shitbot">
+      <%= image_tag("shitbot.png", size: "48", class: "center block") %>
+      <p class="m-0 mt-05">ShitBot</p>
+		</div>
   </div>
 	
-	<%= render partial: "layouts/minesweeper" %>
 	<%= render partial: "layouts/shitbot" %>
+	<%= render partial: "layouts/insta" %>
+	<%= render partial: "layouts/mixtape" %>
+	<%= render partial: "layouts/help" %>
 
   <%= yield %>
+	
+	<%= image_tag("guy.png", width: "200", id: "guy") %>
 	
 	<menu class="btn start inline" id="startMenu">
 		<div class="menu-item">Programs</div>
 		<div class="menu-item">Documents</div>
 		<div class="menu-item">Settings</div>
 		<div class="menu-item">Find</div>
-		<div class="menu-item">Help</div>
+		<div class="menu-item" id="helpLauncher">Help</div>
 		<div class="menu-item">Run...</div>
 		<hr>
 		<div class="menu-item">Shut Down...</div>
 	</menu>
 	
   <footer>
-		
-		
     <button class="left inline start footerbox btn" id="startBtn">
       <%= image_tag("taco.png", size: "13", class: "inline") %>
       Start
@@ -51,7 +57,7 @@
     <div class="inline left line"></div>
 
     <div class="right inline footerbox mr-03 inset">
-      <%= Time.now.strftime("%I:%M %p") %>
+      <span id="time"></span>
     </div>
     <div class="inline right line"></div>
   </footer>
