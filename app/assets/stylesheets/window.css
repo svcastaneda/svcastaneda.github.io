@@ -1,0 +1,41 @@
+.window {
+	background-color: #C1C2BD;
+	display: inline-block;
+	z-index: 2;
+  border-top: 2px solid rgba(235, 235, 235, 0.7);
+  border-left: 2px solid rgba(235, 235, 235, 0.7);
+  border-bottom: 2px solid rgba(169, 169, 169, 0.7);
+  border-right: 2px solid rgba(169, 169, 169, 0.7);
+}
+
+.title-bar {
+	background-color: #007;
+	font-size: 12px;
+	height: 1.75em;
+}
+
+.title-bar {
+	vertical-align: middle;
+	line-height: 1.75em;
+}
+
+.windowCtrls {
+	height: 100%;
+	margin-right: 3px;
+}
+
+.white { color: white; }
+
+.glyph {
+  width: 1.25em;
+  height: 1.25em;
+  background-size: cover;
+  margin-top: 0.25em;
+}
+.glyph-min { background-image: url("icons/min"); }
+.glyph-max { background-image: url("icons/max"); }
+.glyph-close { background-image: url("icons/close"); }
+
+.minimized {
+	
+}
