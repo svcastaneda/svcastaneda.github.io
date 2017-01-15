@@ -32,6 +32,7 @@
   background-size: cover;
   margin-top: 0.25em;
 }
+.glyph:hover { cursor: pointer; }
 .glyph-min { background-image: image-url("min.png"); }
 .glyph-max { background-image: image-url("max.png"); }
 .glyph-close { background-image: image-url("close.png"); }
@@ -47,13 +48,14 @@
 
 #insta .stdSize { height: 395px; }
 
-#help {
+#help, #resume {
 	display: none;
 	visibility: hidden;
 	position: fixed !important;
-	left: 400px;
-	top: 125px;
 }
 
 #insta { left: 350px; top: 250px; }
 #mixtape { left: 700px; top: 125px; }
+#bookmarks { left: 70px; top: 500px; }
+#resume { left: 400px; top: 40px; }
+#help { left: 450px; top: 125px; }
