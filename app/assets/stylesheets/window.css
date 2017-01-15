@@ -32,9 +32,9 @@
   background-size: cover;
   margin-top: 0.25em;
 }
-.glyph-min { background-image: url("images/icons/min.jpg"); }
-.glyph-max { background-image: url("images/icons/max.jpg"); }
-.glyph-close { background-image: url("images/icons/close.png"); }
+.glyph-min { background-image: url("/icons/min.jpg"); }
+.glyph-max { background-image: url("/icons/max.jpg"); }
+.glyph-close { background-image: url("/icons/close.png"); }
 
 .minimized {  }
 
