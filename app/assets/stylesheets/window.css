@@ -34,7 +34,7 @@
 }
 .glyph-min { background-image: url("icons/min.jpg"); }
 .glyph-max { background-image: url("icons/max.jpg"); }
-.glyph-close { background-image: url("icons/close.jpg"); }
+.glyph-close { background-image: url("icons/close.png"); }
 
 .minimized {  }
 
