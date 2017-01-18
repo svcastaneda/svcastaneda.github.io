@@ -2,11 +2,14 @@ $(document).ready(function () {
 	var zIndex = 3;
 	
 	$(function() {
-		$('.window').draggable();
+		$(".window").draggable({
+			cancel: ".windowCtrls",
+			handle: ".title-bar",
+			stack: ".window"
+		});
 	});
 	
 	$(".window").on("mousedown", function(e) {
-		// $(".window").css({"z-index": "2"});
 		$(this).css({"z-index": zIndex});
 		zIndex++;
 	});
