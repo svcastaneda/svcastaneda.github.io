@@ -4,12 +4,16 @@ $(document).ready(function () {
 	});
 
   $("#userInput").keypress(function (e) {
-      if (e.keyCode != 13) return;
-      if (e.keyCode == 13 && !e.shiftKey) {
-        e.preventDefault();
-        send();
-        return false;    
-      }
+    if (e.keyCode != 13) return;
+    if (e.keyCode == 13 && !e.shiftKey) {
+      e.preventDefault();
+      send();
+      return false;    
+    }
+  });
+  
+  $(document).on('mousedown', '*:not(#userInput)', function() {
+    $('#userInput').trigger('blur');
   });
   
   var send = function() {
