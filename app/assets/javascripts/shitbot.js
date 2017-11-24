@@ -1,5 +1,22 @@
 $(document).ready(function () {
 	$("#send").on("click", function(e) {
+		send();
+	});
+
+  $("#userInput").keypress(function (e) {
+    if (e.keyCode != 13) return;
+    if (e.keyCode == 13 && !e.shiftKey) {
+      e.preventDefault();
+      send();
+      return false;    
+    }
+  });
+  
+  $(document).on('mousedown', '*:not(#userInput)', function() {
+    $('#userInput').trigger('blur');
+  });
+  
+  var send = function() {
 		var user = $("#userInput").val();
 		if (user.length > 0){
 			var convo = $("#convo");
@@ -10,11 +27,10 @@ $(document).ready(function () {
 		
 			convo.append("<div><p><span class='bot talkin'>ShitBot:</span> " + shitbot + "</p></div>");
 		
-			convo.scrollTop(convo[0].scrollHeight);
-		
-			$("#userInput").val("");
+			convo.scrollTop(convo[0].scrollHeight);	
 		}
-	});
+    $("#userInput").val("");
+  }
 	
 	var rand = function(keys) {
 	  var key = responses[keys[Math.floor(keys.length * Math.random())]];
