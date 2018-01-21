@@ -1,5 +1,9 @@
 #resume {	width: 30em; }
-#resumeBody { height: 550px; overflow-y: scroll; }
+#resumeBody {
+  height: 550px;
+  overflow-y: scroll;
+  margin: 5px;
+}
 
 pill {
   padding: 5px;
@@ -16,6 +20,8 @@ h3 { margin: 0.25em 0; }
 job {
   background-color: white;
 	display: block;
+  margin: 8px 0;
+  border-radius: 5px;
 }
 
 job p {
@@ -23,6 +29,8 @@ job p {
 	margin: 0;
 	padding: 5px;
 	background-color: #66002F;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 job ul {
