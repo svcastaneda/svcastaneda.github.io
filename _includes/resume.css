@@ -1,0 +1,47 @@
+#resume {	width: 30em; }
+#resumeBody {
+  height: 550px;
+  overflow-y: scroll;
+  margin: 5px;
+}
+
+pill {
+  padding: 5px;
+  margin: 5px 0px;
+  color: white;
+	font-size: 14px;
+  background-color: #66002F;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+h3 { margin: 0.25em 0; }
+
+job {
+  background-color: white;
+	display: block;
+  margin: 8px 0;
+  border-radius: 5px;
+}
+
+job p {
+	color: white;
+	margin: 0;
+	padding: 5px;
+	background-color: #66002F;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+job ul {
+	margin: 0;
+  padding: 5px 0 5px 30px;
+}
+
+bonus-pt {
+	padding: 5px;
+	font-size: 12px;
+	display: inline-block;
+	border-radius: 5px;
+	background-color: #F9822B;
+}
