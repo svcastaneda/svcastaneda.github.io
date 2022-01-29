@@ -31,12 +31,16 @@ sass:
   sass_dir: _sass
 
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - bin
-  - vendor
-  - node_modules
+- .sass-cache/
+- .jekyll-cache/
+- gemfiles/
+- Gemfile
+- Gemfile.lock
+- node_modules/
+- vendor/bundle/
+- vendor/cache/
+- vendor/gems/
+- vendor/ruby/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
