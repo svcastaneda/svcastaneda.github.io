@@ -14,7 +14,7 @@
 			<pill>{{ skill.name }}</pill>
 			{% endfor %}
 		</section>
-		<hr>
+		<hr class="my-1">
 		<section>
 			<h3>XP</h3>
 			{% for job in site.data.experiences %}
@@ -28,7 +28,16 @@
 			</job>
 			{% endfor %}
 		</section>
-		<hr>
+		<hr class="my-1">
+    <section>
+			<h3>Speaking Gigs</h3>
+			{% for event in site.data.speaking_gigs %}
+			<pill>
+				{{ event.name }} [{{ event.year }}]
+			</pill>
+			{% endfor %}
+		</section>
+		<hr class="my-1">
 		<section>
 			<h3>Bonus Pts</h3>
 			{% for achievement in site.data.achievements %}
