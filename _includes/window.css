@@ -53,6 +53,8 @@
 }
 
 #mixtape { left: 700px; top: 125px; }
-#bookmarks { left: 70px; top: 500px; }
-#resume { left: 400px; top: 40px; }
+#bookmarks { left: 25px; top: 445px; }
+#about { left: 220px; top: 50px; width: 25rem; }
+#resume { left: 650px; top: 50px; }
+#shitbot { width: 21em; left: 285px; top: 445px; }
 #help { left: 450px; top: 125px; }
