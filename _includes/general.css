@@ -35,6 +35,8 @@ footer {
 
 .p-05 { padding: 0.5em; }
 
+.p-1 { padding: 1em; }
+
 .left { float: left; }
 
 .right { float: right; }
@@ -107,12 +109,6 @@ footer {
 
 hr {
 	margin: 0;
-}
-
-#guy {
-	position: fixed;
-  bottom: 1.5em;
-  right: 0;
 }
 
 .white-bg { background-color: white; }
