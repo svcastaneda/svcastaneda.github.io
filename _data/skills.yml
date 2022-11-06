@@ -2,12 +2,11 @@
 - name: CSS
 - name: ruby
 - name: python
-- name: JS
+- name: rails
+- name: javascript
+- name: react
 - name: git
-- name: java
-- name: swift
 - name: activerecord
 - name: SQL
-- name: rails
-- name: django
-- name: sinatra
+- name: datadog
+- name: jekyll

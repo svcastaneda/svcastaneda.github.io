@@ -1,8 +1,30 @@
+- position: software engineer III at Stitch Fix
+  description:
+    - li: Led initiatives to safely upgrade 10 apps from Rails 5.2 to 6.1 and Ruby 2.7 to 3.0 by leveraging CircleCI, following the official guides, and documenting any problems that arose and how to resolve them.
+    - li: Strategically deprecated 2 major services and cleaned up our codebases of their dependencies.
+    - li: Drove initiative to update gem dependencies regularly by setting up a slack workflow and way of working for the team.
+    - li: Significantly improved our alerting systems in DataDog by adding new monitors and alerts that would provide engineers with early system error notifications and details about where to look when paged while on-call.
+    - li: Planned and led a project with 2 supporting engineers to improve stylist experience by hitting a new API endpoint to get new images and metadata, save it to the database, format it in a presenter, send it to the frontend, and display the updated images showing how a garment looks on a human along with model size information.
+    - li: Created new API endpoints and React components for an experimental product launch called Live Styling (now sunsetted).
+- position: software engineer II at Home Chef
+  description:
+    - li: Created a new React app for the Message Center, built out APIs in the Rails app to use in the React and React Native apps, built the visual components, and created a new table to assign messages to users. The app is rendered in one spot at the top of the page and uses portals to move components to other places in the DOM.
+    - li: Revamped the gift card flow by working on the re-design, adding addresses to carts, and ensuring that addresses are verified against Stripe.
+    - li: Worked on adding a new OmniAuth callback to create a new ID.me feature that allows hospital employees, first responders, and teachers to receive a sign-up voucher and recurring discount.
+    - li: Fixed a security bug in our Google OmniAuth to use a POST request from an interstitial page using a valid CSRF token instead of redirecting straight to Google.
+    - li: Optimized the CSS for our lightweight marketing pages by creating and loading a separate shared stylesheet and another stylesheet specific to that page. This improved performance by 60\%.
+    - li: Set up numerous A/B experiments (e.g., shipping and serving costs, swapping funnel steps) and fixed various visual bugs (e.g., misaligned columns, wrong breakpoints, not-ADA friendly, etc.)
+- position: application engineer at GitHub
+  description:
+    - li: Made GitHub OFAC compliant in time for the acquisition deal closing with Microsoft by blocking sanctioned users from being able to upgrade to paid plans, designing flash notices to flagged users, and designing and implementing notices to internal staff tools for debugging and support purposes.
+    - li: Worked on transitioning the subscription system payment gateway from Braintree to Zuora by writing data transitions, creating new automated jobs with ActiveJob, adding new audit logs, and fixing bugs.
+    - li: Brought accounts back in good standing during week long on-call rotations addressing 30+ support tickets in a timely manner, fixing accounts when needed (e.g., updating billing dates, changing plan type, resetting billing attempts, etc.) in the production console, and opening issues for new bugs.
+    - li: Worked closely with some of our partner organizations such as Code2040 and Teens Exploring Technology to drive diversity initiatives by mentoring fellows and students, sitting on panels, and reviewing resumes.
 - position: app eng intern at GitHub
   description:
     - li: Improved the current suggester for tagging issues, pull requests, and users to make it faster, predictive, and personalized by implementing frecency (frequency + recency). Created a project doc for others to continue the project.
     - li: Created a <a href="https://internships.github.com/" target="_blank">GitHub Pages site</a> to show what it’s like to intern at GitHub.
-- position: career prep overlord at DPU CSS
+- position: director of career prep at DPU CSS
   description:
     - li: Help students at DePaul prepare for future careers and internships by leading various workshops such as preparing for technical interviews, dealing with imposter syndrome, and negotiating salaries.
 - position: Google student ambassador at DePaul
