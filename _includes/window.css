@@ -46,15 +46,12 @@
   box-sizing: border-box;
 }
 
-#insta .stdSize { height: 395px; }
-
 #help {
 	display: none;
 	visibility: hidden;
 	position: fixed !important;
 }
 
-#insta { left: 350px; top: 250px; }
 #mixtape { left: 700px; top: 125px; }
 #bookmarks { left: 70px; top: 500px; }
 #resume { left: 400px; top: 40px; }
