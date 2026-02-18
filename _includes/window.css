@@ -52,9 +52,9 @@
 	position: fixed !important;
 }
 
-#mixtape { left: 700px; top: 125px; }
-#bookmarks { left: 25px; top: 445px; }
+/* #mixtape { left: 700px; top: 125px; } */
+#bookmarks { left: 380px; top: 465px; }
 #about { left: 220px; top: 50px; width: 25rem; }
 #resume { left: 650px; top: 50px; }
-#shitbot { width: 21em; left: 285px; top: 445px; }
+/* #shitbot { width: 21em; left: 285px; top: 445px; } */
 #help { left: 450px; top: 125px; }
