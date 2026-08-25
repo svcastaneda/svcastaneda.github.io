@@ -1,11 +1,17 @@
+- position: lead software engineer I at Stitch Fix
+  description:
+    -  li: Led yearly efforts to upgrade Ruby and Rails versions for the 2 apps and 11 services that the team owned and cleaned up unused libraries, ensuring easier future maintenance and reducing technical debt.
+    -  li: Planned, led, executed, tested, and launched several high-impact cross-team collaborative projects that improved stylist happiness and efficiency, such as a Gen AI-backed assistant for note writing that reduced writing time by 40 seconds, displaying sale prices to stylists, adding new GraphQL requests to be able to edit and display data, and allowing stylists to see and select all colors for an item.
+    -  li: Built, developed, and maintained multiple services, backend API endpoints, react hooks to call API endpoints, UI elements, and technical design documents.
+    -  li: Collaborated with product managers and product designers to create ideas on how to create the best user experience while weighing tradeoffs to narrow scope.
+    -  li: Improved the front-end coding experience by bringing the main application to the shared design system library. This reduced engineering time, as we were able to use shared components that follow accessibility standards, are regularly maintained, and are quicker to implement.
 - position: software engineer III at Stitch Fix
   description:
     - li: Led initiatives to safely upgrade 10 apps from Rails 5.2 to 6.1 and Ruby 2.7 to 3.0 by leveraging CircleCI, following the official guides, and documenting any problems that arose and how to resolve them.
     - li: Strategically deprecated 2 major services and cleaned up our codebases of their dependencies.
     - li: Drove initiative to update gem dependencies regularly by setting up a slack workflow and way of working for the team.
     - li: Significantly improved our alerting systems in DataDog by adding new monitors and alerts that would provide engineers with early system error notifications and details about where to look when paged while on-call.
-    - li: Planned and led a project with 2 supporting engineers to improve stylist experience by hitting a new API endpoint to get new images and metadata, save it to the database, format it in a presenter, send it to the frontend, and display the updated images showing how a garment looks on a human along with model size information.
-    - li: Created new API endpoints and React components for an experimental product launch called Live Styling (now sunsetted).
+    - li: Planned and led a project with 2 supporting engineers to improve stylist experience by showing how a garment looks on a human along with model size information. This involved calling an external service's API endpoint, saving the data, formatting it in a presenter, creating and calling a new internal API endpoint, and creating a new React component to display the images.
 - position: software engineer II at Home Chef
   description:
     - li: Created a new React app for the Message Center, built out APIs in the Rails app to use in the React and React Native apps, built the visual components, and created a new table to assign messages to users. The app is rendered in one spot at the top of the page and uses portals to move components to other places in the DOM.

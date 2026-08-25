@@ -9,7 +9,7 @@
 	</div>
 	<div id="resumeBody">
 		<section>
-			<h3>Tech Skillz</h3>
+			<h3>Tech Skills</h3>
 			{% for skill in site.data.skills %}
 			<pill>{{ skill.name }}</pill>
 			{% endfor %}
@@ -39,10 +39,10 @@
 		</section>
 		<hr class="my-1">
 		<section>
-			<h3>Bonus Pts</h3>
-			{% for achievement in site.data.achievements %}
+			<h3>Volunteering</h3>
+			{% for volunteer in site.data.volunteering %}
 			<pill>
-				{{ achievement.name }} [{{ achievement.year }}]
+				{{ volunteer.name }} [{{ volunteer.years }}]
 			</pill>
 			{% endfor %}
 		</section>
