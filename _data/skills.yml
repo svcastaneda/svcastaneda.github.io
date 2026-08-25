@@ -1,7 +1,6 @@
 - name: HTML
 - name: CSS
 - name: ruby
-- name: python
 - name: rails
 - name: javascript
 - name: react
@@ -9,4 +8,5 @@
 - name: activerecord
 - name: SQL
 - name: datadog
+- name: python
 - name: jekyll
